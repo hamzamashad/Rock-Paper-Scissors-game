@@ -94,6 +94,6 @@ function game() {
     return [gameWinner, playerScore, computerScore, tieScore];
 }
 
-window.alert("Rock Paper Scissors game starting");
+window.alert("Rock Paper Scissors game starting!\nThe game is played for 5 rounds. If the winner is not decided then, extra rounds are played.");
 const [winner, playerScore, computerScore, tieScore] = game();
 window.alert(`The winner is the ${winner}!\n\nRounds played: ${playerScore + computerScore + tieScore}\nPlayer Score: ${playerScore}\nComputer Score: ${computerScore}\nTies: ${tieScore}`);
