@@ -5,7 +5,7 @@ function computerPlay() {
 }
 function playerInput() {
     while (true) {
-        const playerInput = prompt("Player's Turn.\nEnter your choice (Rock, Paper, or Scissors").toLowerCase();
+        const playerInput = prompt("Player's Turn.\nEnter your choice (Rock, Paper, or Scissors)").toLowerCase();
         if (playerInput == "rock" || playerInput == "paper" || playerInput == "scissors") {
             return playerInput;
         }
